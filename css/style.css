@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+:root {
+    --background: #f0f0f0;
+    --itens: #007bff;
+    --text: #024fa1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: var(--text);
+    font-weight: 800;
+}
+
+
+body main {
+    background-color: var(--background);
+    margin: 10vh;
+    border-radius: 16px;
+    padding: 25px;
+    width:50vw;
+    margin: 0 auto;
+}
+
+body main header {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 25px;
+    font-weight: 800px;
+}
+
+body main .ex01 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 16px;
+    border: 2px solid rgb(201, 201, 201);
+    margin-bottom: 20px;
+}
+
+body main .ex01 .blocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+body main .ex01 .item1 {
+    display: block;
+    width: 15vh;
+    height: 9vh;
+    background-color: var(--itens);
+    text-align: center;
+    align-content: center;
+    color: white;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+body main .ex02 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 16px;
+    border: 2px solid rgb(201, 201, 201);
+    margin-bottom: 20px;
+}
+
+body main .ex02 .blocks {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+body main .ex02 .item2 {
+    display: block;
+    width: 15vh;
+    height: 9vh;
+    background-color: var(--itens);
+    text-align: center;
+    align-content: center;
+    color: white;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+body main .ex03 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 16px;
+    border: 2px solid rgb(201, 201, 201);
+    margin-bottom: 20px;
+}
+
+body main .ex03 .blocks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+body main .ex03 .item3{
+    display: block;
+    width: 100%;
+    height: 9vh;
+    background-color: var(--itens);
+    text-align: center;
+    align-content: center;
+    color: white;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+body main .ex04 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 16px;
+    border: 2px solid rgb(201, 201, 201);
+    margin-bottom: 20px;
+}
+
+body main .ex04 .blocks {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+body main .ex04 .blocks .item4 {
+    display: block;
+    width: 48%;
+    height: 9vh;
+    background-color: var(--itens);
+    text-align: center;
+    align-content: center;
+    color: white;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+body main .ex05 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 16px;
+    border: 2px solid rgb(201, 201, 201);
+    margin-bottom: 20px;
+}
+
+body main .ex05 .blocks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+body main .ex05 .blocks .itemMargin {
+    display: block;
+    width: 90%;
+    height: 9vh;
+    background-color: var(--itens);
+    text-align: center;
+    align-content: center;
+    color: white;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+body main .ex05 .blocks .itemPadding {
+    display: block;
+    width: 100%;
+    height: 11vh;
+    background-color: var(--itens);
+    text-align: center;
+    align-content: center;
+    color: white;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+body main .ex06 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 16px;
+    border: 2px solid rgb(201, 201, 201);
+    margin-bottom: 20px;
+}
+
+body main .ex06 .blocks {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background-color: var(--itens);
+    text-align: center;
+    align-content: center;
+    color: white;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+body main .ex06 .blocks img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    transition: 4s;
+}
+
+body main .ex06 .blocks img:hover {
+    transform: scale(5);
+}
+
+body main .ex07 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 16px;
+    border: 2px solid rgb(201, 201, 201);
+    margin-bottom: 20px;
+}
+
+body main .ex07 .blocks {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background-color: var(--itens);
+    text-align: center;
+    align-content: center;
+    color: white;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+body main .ex07 .blocks a{
+    text-decoration: none;
+    color: white;
+}
+
+body main .ex07 .blocks a:hover {
+    color: rgb(255, 196, 32);
+    transition: 250ms;
+}
+
+body main .ex08 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 16px;
+    border: 2px solid rgb(201, 201, 201);
+    margin-bottom: 20px;
+}
+
+body main .ex08 .blocks {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background-color: rgb(201, 56, 56);
+    text-align: center;
+    align-content: center;
+    color: white;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+body main .ex08 .blocks p {
+    font-family: Source Code Pro;
+}
+
+body main .ex09 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 16px;
+    border: 2px solid rgb(201, 201, 201);
+    margin-bottom: 20px;
+}
+
+body main .ex09 .blocks {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background-color: rgb(252, 191, 24);
+    text-align: center;
+    align-content: center;
+    color: white;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: 0.4s ease-in-out;
+}
+
+body main .ex09 .blocks:hover {
+    transform: rotate(-10deg);
+}
+
+body main .ex10 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 16px;
+    border: 2px solid rgb(201, 201, 201);
+    margin-bottom: 20px;
+}
+
+body main .ex10 .blocks {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background-color: rgb(66, 209, 0);
+    text-align: center;
+    align-content: center;
+    color: white;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: 0.4s ease-in-out;
+}
+
+body main .ex10 .blocks:hover {
+    transform: translateX(10px);
+}
